@@ -1,0 +1,107 @@
+# Color Palette Generator
+Roll a fresh five-color palette, lock the shades you love, fine-tune every color, and export it ready for your next design, brand board, or product page.
+EDITING
+#A52C7D
+rgb(165, 44, 125)
+[button:
+] [button:
+]
+[hidden] EDITING
+#B02DC8
+rgb(176, 45, 200)
+[button:
+] [button:
+]
+[hidden] EDITING
+#80F15B
+rgb(128, 241, 91)
+[button:
+] [button:
+]
+[hidden] EDITING
+#76DBA0
+rgb(118, 219, 160)
+[button:
+] [button:
+]
+[hidden] EDITING
+#A77135
+rgb(167, 113, 53)
+[button:
+] [button:
+]
+Palette style
+[select: = Surprise Me* | Analogous | Complementary | Triadic | Monochrome | Pastel | Bold | Earthy | Jewel | Neon]
+[button: Generate palette] [button: Save this palette]
+Tip: press Space for a new palette. Locked colors stay put. Tap any color to fine-tune it below.
+## See it live
+Your palette, at work. This scene and these type samples repaint themselves the moment your colors change — roll a new palette, drag a slider, or load a saved one and watch.
+Sky
+#76DBA0
+Clouds
+#80F15B
+Sun
+#80F15B
+Far hills
+#A77135
+Near hills
+#B02DC8
+Ground
+#A52C7D
+On #80F15B
+Good color does the talking first.
+Before anyone reads a single word, color has already set the mood. This is your palette carrying a headline and a paragraph — big, clear type up top, easy reading underneath.
+See how it looks
+Headline & text #A52C7D · Button #80F15B
+On #A52C7D
+Same palette, after dark.
+Flip it over and the deepest color in your palette takes the lead, with the lightest standing in for the words. Handy for footers, banners, and anything that runs at night.
+See how it looks
+Headline & text #80F15B · Button #80F15B
+## Fine-tune a color
+Select a color in the palette above, then slide until it feels right. Changes update everywhere instantly.
+#A52C7D
+rgb(165, 44, 125) · HSL 320°, 58%, 41%
+Hue
+[input range: = 320]
+320°
+Saturation
+[input range: = 58]
+58%
+Lightness
+[input range: = 41]
+41%
+Build around a color you love
+[input color: = #2f6fd0]
+#2F6FD0
+[button: Build around this color] [button: Clear base color]
+## Shades & tints
+Ten steps from deep shade to soft tint of the selected color. Tap any step to copy its hex.
+[button: #200918] [button: #441234] [button: #691C4F] [button: #8D256B] [button: #B12F86] [button: #CC3E9C] [button: #D562AF] [button: #DF86C1] [button: #E9AAD4] [button: #F2CFE6]
+## Text readability check
+Pick a text color and a background color to see the contrast ratio and whether it passes WCAG readability levels.
+Text color
+[input color: = #101318]
+#101318
+[button: ] [button: ] [button: ] [button: ] [button: ]
+Background color
+[input color: = #ffffff]
+#FFFFFF
+[button: ] [button: ] [button: ] [button: ] [button: ]
+18.61 : 1
+AA · normal text — Pass
+AA · large text — Pass
+AAA · normal text — Pass
+AAA · large text — Pass
+Your headline will look like this
+And this is body text at a normal reading size. If the badges above say Pass, most people will read this comfortably.
+## Export your palette
+Copy it, drop it into your CSS, or download it as a file or a swatch image.
+[button: Hex list] [button: RGB list] [button: CSS variables]
+[textarea: Export output = #A52C7D #B02DC8 #80F15B #76DBA0 #A77135]
+[button: Copy] [button: Download .css file] [button: Download PNG swatches]
+## Your saved palettes Saved for this visit only
+Palettes you save here stay for this visit and clear when you leave the page — export anything you want to keep.
+No palettes saved yet this visit. Roll one you love and tap “Save this palette.”
+Join The Glam Vault (→ https://payhip.com/b/54LoK) Shop Glam Hustle Hub (→ https://glamhustlehub.com)
+Made with sapphire, chrome & pearl — pick colors that make your work shine.

@@ -1,0 +1,8 @@
+{
+  "schema_version": "hatch.probe_ui_session.v1",
+  "socket": "/home/hatch/workspace/ts-spaces/color-palette-generator-public/.harness/probe-ui/sock",
+  "slug": "color-palette-generator-public",
+  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-304feab9-7678-4b56-8d4e-424cb12cbe79/",
+  "audit_session_id": "5bbdc6af-7afd-4df3-8b00-8e3b1d9eb033",
+  "pid": 28216
+}

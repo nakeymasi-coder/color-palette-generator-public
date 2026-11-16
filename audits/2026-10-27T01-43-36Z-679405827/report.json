@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-304feab9-7678-4b56-8d4e-424cb12cbe79/",
+  "duration_ms": 2892.4602609999997,
+  "output_dir": "/home/hatch/workspace/ts-spaces/color-palette-generator-public/audits/2026-10-27T01-43-36Z-679405827",
+  "nav_status": 200,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "screenshot_path": "/home/hatch/workspace/ts-spaces/color-palette-generator-public/audits/2026-10-27T01-43-36Z-679405827/screenshot.png",
+      "fullpage_screenshot_path": "/home/hatch/workspace/ts-spaces/color-palette-generator-public/audits/2026-10-27T01-43-36Z-679405827/screenshot-full.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "screenshot_path": "/home/hatch/workspace/ts-spaces/color-palette-generator-public/audits/2026-10-27T01-43-36Z-679405827/screenshot-mobile.png"
+    }
+  },
+  "mobile_layout": {
+    "viewport_width": 390,
+    "scroll_width": 390,
+    "overflow_px": 0,
+    "widest_selector": null,
+    "verdict": "pass"
+  },
+  "horizontal_scrollers": [],
+  "unreachable_controls": {
+    "desktop": [],
+    "mobile": []
+  },
+  "clipped": {
+    "desktop": [],
+    "mobile": []
+  },
+  "images": {
+    "total": 0,
+    "broken": [],
+    "duplicate": [],
+    "unstable": [],
+    "failed_requests": [],
+    "external_blocked": {
+      "count": 0,
+      "sample": []
+    },
+    "sample_urls": [],
+    "verdict": "pass"
+  },
+  "text_issues": [],
+  "console_errors": [],
+  "console_warnings": [],
+  "external_fetch_failures": 2,
+  "external_fetch_failure_samples": [
+    "console.error: Failed to load resource: net::ERR_SOCKS_CONNECTION_FAILED (https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap)",
+    "console.error: Failed to load resource: net::ERR_SOCKS_CONNECTION_FAILED (https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap)"
+  ],
+  "blocked_requests": [],
+  "external_requests": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap",
+      "method": "GET",
+      "resource_type": "stylesheet"
+    }
+  ],
+  "external_requests_dropped": 0,
+  "external_requests_dropped_data_bearing": 0,
+  "transport_ledger_active": true,
+  "egress_lockdown": true,
+  "transport_connections": [
+    {
+      "host": "fonts.googleapis.com",
+      "port": 443,
+      "connects": 2,
+      "bytes_up": 0,
+      "bytes_down": 0,
+      "policy_denied": true
+    }
+  ],
+  "transport_udp_attempts": 0,
+  "transport_overflow": 0,
+  "unexplained_transport_hosts": [],
+  "broken_assets": [],
+  "blocked_affordances": [],
+  "interactive_nodes": 49,
+  "aria_snapshot": "- banner:\n  - heading \"Color Palette Generator\" [level=1]\n  - paragraph: Roll a fresh five-color palette, lock the shades you love, fine-tune every color, and export it ready for your next design, brand board, or product page.\n- main:\n  - region \"Current palette\":\n    - 'button \"Select color #A52C7D to fine-tune\"':\n      - text: \"EDITING #A52C7D rgb(165, 44, 125)\"\n      - 'button \"Copy #A52C7D\"'\n      - 'button \"Lock #A52C7D\"'\n    - 'button \"Select color #B02DC8 to fine-tune\"':\n      - text: \"#B02DC8 rgb(176, 45, 200)\"\n      - 'button \"Copy #B02DC8\"'\n      - 'button \"Lock #B02DC8\"'\n    - 'button \"Select color #80F15B to fine-tune\"':\n      - text: \"#80F15B rgb(128, 241, 91)\"\n      - 'button \"Copy #80F15B\"'\n      - 'button \"Lock #80F15B\"'\n    - 'button \"Select color #76DBA0 to fine-tune\"':\n      - text: \"#76DBA0 rgb(118, 219, 160)\"\n      - 'button \"Copy #76DBA0\"'\n      - 'button \"Lock #76DBA0\"'\n    - 'button \"Select color #A77135 to fine-tune\"':\n      - text: \"#A77135 rgb(167, 113, 53)\"\n      - 'button \"Copy #A77135\"'\n      - 'button \"Lock #A77135\"'\n    - text: Palette style\n    - combobox \"Palette style\":\n      - option \"Surprise Me\" [selected]\n      - option \"Analogous\"\n      - option \"Complementary\"\n      - option \"Triadic\"\n      - option \"Monochrome\"\n      - option \"Pastel\"\n      - option \"Bold\"\n      - option \"Earthy\"\n      - option \"Jewel\"\n      - option \"Neon\"\n    - button \"Generate palette\"\n    - button \"Save this palette\"\n    - paragraph: \"Tip: press Space for a new palette. Locked colors stay put. Tap any color to fine-tune it below.\"\n  - region \"See it live demonstration\":\n    - heading \"See it live\" [level=2]\n    - paragraph: Your palette, at work. This scene and these type samples repaint themselves the moment your colors change — roll a new palette, drag a slider, or load a saved one and watch.\n    - img \"Sample landscape scene painted with your palette colors\"\n    - text: \"Sky #76DBA0 Clouds #80F15B Sun #80F15B Far hills #A77135 Near hills #B02DC8 Ground #A52C7D On #80F15B\"\n    - paragraph: Good color does the talking first.\n    - paragraph: Before anyone reads a single word, color has already set the mood. This is your palette carrying a headline and a paragraph — big, clear type up top, easy reading underneath.\n    - text: \"See how it looks Headline & text #A52C7D · Button #80F15B On #A52C7D\"\n    - paragraph: Same palette, after dark.\n    - paragraph: Flip it over and the deepest color in your palette takes the lead, with the lightest standing in for the words. Handy for footers, banners, and anything that runs at night.\n    - text: \"See how it looks Headline & text #80F15B · Button #80F15B\"\n  - region \"Fine-tune a color\":\n    - heading \"Fine-tune a color\" [level=2]\n    - paragraph: Select a color in the palette above, then slide until it feels right. Changes update everywhere instantly.\n    - text: \"#A52C7D rgb(165, 44, 125) · HSL 320°, 58%, 41% Hue\"\n    - slider \"Hue\": \"320\"\n    - status: 320°\n    - text: Saturation\n    - slider \"Saturation\": \"58\"\n    - status: 58%\n    - text: Lightness\n    - slider \"Lightness\": \"41\"\n    - status: 41%\n    - text: Build around a color you love\n    - textbox \"Build around a color you love\": \"#2f6fd0\"\n    - text: \"#2F6FD0\"\n    - button \"Build around this color\"\n  - region \"Shades and tints\":\n    - heading \"Shades & tints\" [level=2]\n    - paragraph: Ten steps from deep shade to soft tint of the selected color. Tap any step to copy its hex.\n    - 'button \"Copy shade #200918\"': \"#200918\"\n    - 'button \"Copy shade #441234\"': \"#441234\"\n    - 'button \"Copy shade #691C4F\"': \"#691C4F\"\n    - 'button \"Copy shade #8D256B\"': \"#8D256B\"\n    - 'button \"Copy shade #B12F86\"': \"#B12F86\"\n    - 'button \"Copy shade #CC3E9C\"': \"#CC3E9C\"\n    - 'button \"Copy shade #D562AF\"': \"#D562AF\"\n    - 'button \"Copy shade #DF86C1\"': \"#DF86C1\"\n    - 'button \"Copy shade #E9AAD4\"': \"#E9AAD4\"\n    - 'button \"Copy shade #F2CFE6\"': \"#F2CFE6\"\n  - region \"Contrast checker\":\n    - heading \"Text readability check\" [level=2]\n    - paragraph: Pick a text color and a background color to see the contrast ratio and whether it passes WCAG readability levels.\n    - text: Text color\n    - textbox: \"#101318\"\n    - text: \"#101318\"\n    - 'button \"Use palette color #A52C7D\"'\n    - 'button \"Use palette color #B02DC8\"'\n    - 'button \"Use palette color #80F15B\"'\n    - 'button \"Use palette color #76DBA0\"'\n    - 'button \"Use palette color #A77135\"'\n    - text: Background color\n    - textbox: \"#ffffff\"\n    - text: \"#FFFFFF\"\n    - 'button \"Use palette color #A52C7D\"'\n    - 'button \"Use palette color #B02DC8\"'\n    - 'button \"Use palette color #80F15B\"'\n    - 'button \"Use palette color #76DBA0\"'\n    - 'button \"Use palette color #A77135\"'\n    - text: \"18.61 : 1 AA · normal text — Pass AA · large text — Pass AAA · normal text — Pass AAA · large text — Pass\"\n    - paragraph: Your headline will look like this\n    - paragraph: And this is body text at a normal reading size. If the badges above say Pass, most people will read this comfortably.\n  - region \"Export palette\":\n    - heading \"Export your palette\" [level=2]\n    - paragraph: Copy it, drop it into your CSS, or download it as a file or a swatch image.\n    - group \"Export format\":\n      - button \"Hex list\"\n      - button \"RGB list\"\n      - button \"CSS variables\"\n    - textbox \"Export output\": \"#A52C7D #B02DC8 #80F15B #76DBA0 #A77135\"\n    - button \"Copy\"\n    - button \"Download .css file\"\n    - button \"Download PNG swatches\"\n  - region \"Saved palettes\":\n    - heading \"Your saved palettes Saved for this visit only\" [level=2]\n    - paragraph: Palettes you save here stay for this visit and clear when you leave the page — export anything you want to keep.\n    - text: No palettes saved yet this visit. Roll one you love and tap “Save this palette.”\n- contentinfo:\n  - link \"Join The Glam Vault\":\n    - /url: https://payhip.com/b/54LoK\n  - link \"Shop Glam Hustle Hub\":\n    - /url: https://glamhustlehub.com\n  - paragraph: Made with sapphire, chrome & pearl — pick colors that make your work shine.\n- status",
+  "document_text": {
+    "path": "/home/hatch/workspace/ts-spaces/color-palette-generator-public/audits/2026-10-27T01-43-36Z-679405827/document-text.txt",
+    "chars": 3621,
+    "truncated": false
+  },
+  "audit_session_id": "5bbdc6af-7afd-4df3-8b00-8e3b1d9eb033",
+  "readiness": {
+    "desktop": {
+      "settled": true,
+      "settle_ms": 221,
+      "in_flight": null,
+      "network_idle": true,
+      "retried": false
+    },
+    "mobile": {
+      "settled": true,
+      "settle_ms": 501,
+      "in_flight": null,
+      "network_idle": true,
+      "retried": false
+    }
+  },
+  "color_scheme": {
+    "declared": "light dark",
+    "media_dependent": null,
+    "dark_frame": false
+  },
+  "mobile_ms": 1146.1380649999999,
+  "cold_launch_ms": 214.09400200000005,
+  "desktop_ms": 1562.1761869999998,
+  "browser_launches": 1,
+  "audit_path": "shared-concurrent",
+  "diagnostics": {
+    "audit_path": "shared-concurrent",
+    "concurrent_ran": true,
+    "concurrent_desktop_retry": false,
+    "concurrent_mobile_retry": false,
+    "shared_launch_failed": false,
+    "nav_retries": 0,
+    "settle_retries": 0
+  }
+}
